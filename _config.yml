@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: 'RockyWu Blog'
+subtitle: '爱技术、爱捣腾'
 description: ''
 keywords:
-author: John Doe
-language: en
+author: RockyWu
+language: zh_cn
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://www.wujialei.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -101,5 +101,10 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/rockywu/rockywu.github.io
+  branch: master
+  message: 持续更新
+
